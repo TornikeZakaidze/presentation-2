@@ -29,6 +29,9 @@
 }
 .circleLogo:hover {
     width: 900px;
+    .headList {
+        display: inline-block;
+    }
 }
 .headList {
     color: blueviolet;
@@ -37,6 +40,7 @@
     font-family: 'Griffy';
     font-size: 25px;
     display: inline-flex;
+    display: none;
 }
 .wallet {
     width: 50px;
